@@ -40,4 +40,4 @@ Median → mode → `fillna(mode)` → median again.
 
 Asia subset → `vehicle_weight`, `model_year` → first 7 rows → `X` → `XTX = X.T @ X` → invert → `w = XTX_inv @ X.T @ y`.
 
-> 💡 **Answer:** `TODO`
+> 💡 **Answer:** `0.369`
