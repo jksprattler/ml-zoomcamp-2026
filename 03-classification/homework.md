@@ -3,17 +3,17 @@
 ## Question 1: Mode of `industry`
 
 Fill missing values (categorical → `'NA'`, numerical → `0.0`) → most frequent value of `industry`.
-> 💡 **Answer:** `TODO` (`NA` / `technology` / `healthcare` / `retail`)
+> 💡 **Answer:** `technology`
 
 ## Question 2: Biggest correlation
 
 Correlation matrix of numerical features → pair with the biggest correlation among `interaction_count`/`lead_score`, `number_of_courses_viewed`/`lead_score`, `number_of_courses_viewed`/`interaction_count`, `annual_income`/`interaction_count`.
-> 💡 **Answer:** `TODO`
+> 💡 **Answer:** `interaction_count`/`lead_score`
 
 ## Question 3: Mutual information
 
 Split (seed 42, 60/20/20, drop `converted`) → mutual information between `converted` and each categorical variable on the training set (round to 2 decimals) → highest score.
-> 💡 **Answer:** `TODO` (`industry` / `location` / `lead_source` / `employment_status`)
+> 💡 **Answer:** `lead_source`
 
 ## Question 4: Logistic regression accuracy
 
